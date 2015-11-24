@@ -15,7 +15,7 @@ find_package(GLEW REQUIRED)
 find_package(GLM REQUIRED)
 find_package(FBX REQUIRED)
 
-add_executable(GP2Coursework src/main.cpp
+add_executable(GP2Coursework src/FBXLoader.cpp src/FileSystem.cpp src/GameObject.cpp src/Graphics.cpp src/Main.cpp src/Shader.cpp src/Texture.cpp
 							 include/Common.h include/Cube.h include/FBXLoader.h include/FileSystem.h include/GameObject.h include/Graphics.h include/Mesh.h include/Shader.h include/Texture.h include/Vertices.h)
 
 include_directories(GP2Coursework include/ ${OPENGL_INCLUDE_DIRS} ${SDL2_INCLUDE_DIR} ${GLEW_INCLUDE_DIRS} ${GLM_INCLUDE_DIRS} ${SDL2IMAGE_INCLUDE_DIR} ${SDL2_TTF_INCLUDE_DIR} ${FBX_INCLUDE_DIR})
