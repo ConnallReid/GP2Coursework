@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Connall/Desktop/GP2Coursework
+# Install script for directory: C:/Users/Connall/Documents/GitHub/GP2Coursework
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Connall/Desktop/GP2Coursework/Build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Connall/Documents/GitHub/GP2Coursework/Build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

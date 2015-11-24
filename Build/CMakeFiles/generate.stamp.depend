@@ -1,8 +1,8 @@
 # CMake generation dependency list for this directory.
-C:/Users/Connall/Desktop/GP2Coursework/CMakeLists.txt
+C:/Users/Connall/Documents/GitHub/GP2Coursework/CMakeLists.txt
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeDetermineSystem.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeSystem.cmake.in
-C:/Users/Connall/Desktop/GP2Coursework/Build/CMakeFiles/3.3.0/CMakeSystem.cmake
+C:/Users/Connall/Documents/GitHub/GP2Coursework/Build/CMakeFiles/3.3.0/CMakeSystem.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeSystemSpecificInitialize.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeDetermineCCompiler.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeDetermineCompiler.cmake
@@ -45,7 +45,7 @@ C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CompilerId/VS-10.vcxproj.in
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeFindBinUtils.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeClDeps.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCCompiler.cmake.in
-C:/Users/Connall/Desktop/GP2Coursework/Build/CMakeFiles/3.3.0/CMakeCCompiler.cmake
+C:/Users/Connall/Documents/GitHub/GP2Coursework/Build/CMakeFiles/3.3.0/CMakeCCompiler.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeDetermineCXXCompiler.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeDetermineCompiler.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-CXX.cmake
@@ -87,7 +87,7 @@ C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CompilerId/VS-10.vcxproj.in
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeFindBinUtils.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeClDeps.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCXXCompiler.cmake.in
-C:/Users/Connall/Desktop/GP2Coursework/Build/CMakeFiles/3.3.0/CMakeCXXCompiler.cmake
+C:/Users/Connall/Documents/GitHub/GP2Coursework/Build/CMakeFiles/3.3.0/CMakeCXXCompiler.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeSystemSpecificInformation.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeGenericSystem.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows.cmake
@@ -97,7 +97,7 @@ C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC-C.cma
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeDetermineRCCompiler.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeRCCompiler.cmake.in
-C:/Users/Connall/Desktop/GP2Coursework/Build/CMakeFiles/3.3.0/CMakeRCCompiler.cmake
+C:/Users/Connall/Documents/GitHub/GP2Coursework/Build/CMakeFiles/3.3.0/CMakeRCCompiler.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeRCInformation.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeTestRCCompiler.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCommonLanguageInclude.cmake
@@ -108,7 +108,7 @@ C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseImplicitLinkInfo.
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCCompilerABI.c
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeDetermineCompileFeatures.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCCompiler.cmake.in
-C:/Users/Connall/Desktop/GP2Coursework/Build/CMakeFiles/3.3.0/CMakeCCompiler.cmake
+C:/Users/Connall/Documents/GitHub/GP2Coursework/Build/CMakeFiles/3.3.0/CMakeCCompiler.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCXXInformation.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Compiler/MSVC-CXX.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC-CXX.cmake
@@ -122,14 +122,14 @@ C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCXXCompilerABI.cpp
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeDetermineCompileFeatures.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Internal/FeatureTesting.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Compiler/MSVC-CXX-FeatureTests.cmake
-C:/Users/Connall/Desktop/GP2Coursework/Build/CMakeFiles/feature_tests.cxx
+C:/Users/Connall/Documents/GitHub/GP2Coursework/Build/CMakeFiles/feature_tests.cxx
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCXXCompiler.cmake.in
-C:/Users/Connall/Desktop/GP2Coursework/Build/CMakeFiles/3.3.0/CMakeCXXCompiler.cmake
+C:/Users/Connall/Documents/GitHub/GP2Coursework/Build/CMakeFiles/3.3.0/CMakeCXXCompiler.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindOpenGL.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageMessage.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
-C:/Users/Connall/Desktop/GP2Coursework/cmake/findSDL2.cmake
+C:/Users/Connall/Documents/GitHub/GP2Coursework/cmake/findSDL2.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindThreads.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CheckIncludeFiles.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CheckLibraryExists.cmake
@@ -140,8 +140,8 @@ C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageMessage.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
-C:/Users/Connall/Desktop/GP2Coursework/cmake/findSDL2_Image.cmake
-C:/Users/Connall/Desktop/GP2Coursework/cmake/findSDL2_ttf.cmake
+C:/Users/Connall/Documents/GitHub/GP2Coursework/cmake/findSDL2_Image.cmake
+C:/Users/Connall/Documents/GitHub/GP2Coursework/cmake/findSDL2_ttf.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageMessage.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
@@ -149,8 +149,8 @@ C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindGLEW.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageMessage.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
-C:/Users/Connall/Desktop/GP2Coursework/cmake/findGLM.cmake
+C:/Users/Connall/Documents/GitHub/GP2Coursework/cmake/findGLM.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageMessage.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
-C:/Users/Connall/Desktop/GP2Coursework/cmake/findFBX.cmake
+C:/Users/Connall/Documents/GitHub/GP2Coursework/cmake/findFBX.cmake
