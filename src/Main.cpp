@@ -25,6 +25,8 @@ float specularPower = 25.0f;
 vec3 lightDirection = vec3(0.0f, 0.0f, 1.0f);
 vec3 cameraPosition = vec3(0.0f, 10.0f, 50.0f);
 
+vec3 carPosition = vec3(0.0f, 0.0f, 0.0f);
+
 //for Framebuffer
 GLuint FBOTexture;
 GLuint FBODepthBuffer;
@@ -131,6 +133,12 @@ void initScene()
 	currentGameObject->loadShader(vsPath, fsPath);
 	gameObjects.push_back(currentGameObject);
 
+	modelPath = ASSET_PATH + MODEL_PATH + "/armoredrecon.fbx";
+	currentGameObject = loadFBXFromFile(modelPath);
+	currentGameObject->loadShader(vsPath, fsPath);
+	currentGameObject->setPosition(carPosition);
+	gameObjects.push_back(currentGameObject);
+
 }
 
 void cleanUpFrambuffer()
@@ -164,6 +172,8 @@ void update()
 	{
 		(*iter)->update();
 	}
+
+	carPosition.x = carPosition.x++;
 }
 
 void renderGameObject(shared_ptr<GameObject> gameObject)
@@ -329,12 +339,16 @@ int main(int argc, char * arg[])
 				switch (event.key.keysym.sym)
 				{
 				case SDLK_LEFT:
+					cameraPosition.x--;
 					break;
 				case SDLK_RIGHT:
+					cameraPosition.x++;
 					break;
 				case SDLK_UP:
+					cameraPosition.y++;
 					break;
 				case SDLK_DOWN:
+					cameraPosition.y--;
 					break;
 				default:
 					break;
