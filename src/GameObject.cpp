@@ -46,8 +46,8 @@ void GameObject::update()
 	mat4 scaleMatrix = scale(mat4(1.0f), m_Scale);
 
 	mat4 rotationMatrix = rotate(mat4(1.0f), m_Rotation.x, vec3(1.0f, 0.0f, 0.0f))*
-		rotate(mat4(1.0f), m_Rotation.y, vec3(0.0f, 1.0f, 0.0f))*
-		rotate(mat4(1.0f), m_Rotation.z, vec3(0.0f, 0.0f, 1.0f));
+							rotate(mat4(1.0f), m_Rotation.y, vec3(0.0f, 1.0f, 0.0f))*
+							  rotate(mat4(1.0f), m_Rotation.z, vec3(0.0f, 0.0f, 1.0f));
 
 	m_ModelMatrix = scaleMatrix*rotationMatrix*translationMatrix;
 	m_ModelMatrix *= parentModel;

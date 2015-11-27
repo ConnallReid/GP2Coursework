@@ -4,7 +4,6 @@
 #include "Common.h"
 
 void initOpenGL();
-
 void setViewport(int width, int height);
 
 string getRendererCapsAsString();

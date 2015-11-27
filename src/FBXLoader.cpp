@@ -7,9 +7,8 @@ void PrintTabs() {
 		printf("\t");
 }
 
-/**
-* Return a string-based representation based on the attribute type.
-*/
+
+//Return a string-based representation based on the attribute type.
 FbxString GetAttributeTypeName(FbxNodeAttribute::EType type) {
 	switch (type) {
 	case FbxNodeAttribute::eUnknown: return "unidentified";
@@ -66,8 +65,7 @@ shared_ptr<GameObject> loadFBXFromFile(const string& filename)
 	lGeomConverter.Triangulate(lScene, /*replace*/true);
 
 	// Print the nodes of the scene and their attributes recursively.
-	// Note that we are not printing the root node because it should
-	// not contain any attributes.
+	// Note that we are not printing the root node because it should not contain any attributes.
 	FbxNode* lRootNode = lScene->GetRootNode();
 	if (lRootNode) {
 		cout << "Root Node " << lRootNode->GetName() << endl;
@@ -76,7 +74,6 @@ shared_ptr<GameObject> loadFBXFromFile(const string& filename)
 			processNode(lRootNode->GetChild(i), rootGameObject);
 		}
 	}
-
 	lImporter->Destroy();
 	return rootGameObject;
 }
@@ -128,7 +125,6 @@ void processAttribute(FbxNodeAttribute * attribute, shared_ptr<GameObject> gameO
 
 void processMesh(FbxMesh * mesh, shared_ptr<GameObject> gameObject)
 {
-
 	int numVerts = mesh->GetControlPointsCount();
 	int numIndices = mesh->GetPolygonVertexCount();
 
@@ -150,14 +146,12 @@ void processMesh(FbxMesh * mesh, shared_ptr<GameObject> gameObject)
 
 	cout << "Vertices " << numVerts << " Indices " << numIndices << endl;
 
-
 	if (pVerts)
 	{
 		delete[] pVerts;
 		pVerts = NULL;
 	}
 }
-
 
 void processMeshTextureCoords(FbxMesh * mesh, Vertex * verts, int numVerts)
 {

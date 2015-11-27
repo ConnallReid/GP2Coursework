@@ -39,7 +39,6 @@ GLuint loadShaderFromFile(const std::string& filename, SHADER_TYPE shaderType)
 		GLuint program = loadShaderFromMemory(fileContents.c_str(), shaderType);
 		return program;
 	}
-
 	return 0;
 }
 

@@ -11,7 +11,6 @@
 //matrices
 mat4 viewMatrix;
 mat4 projMatrix;
-
 mat4 MVPMatrix;
 
 vector<shared_ptr<GameObject> > gameObjects;
@@ -51,9 +50,7 @@ void createFramebuffer()
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
-	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, FRAME_BUFFER_WIDTH, FRAME_BUFFER_HEIGHT, 0, GL_RGBA,
-		GL_UNSIGNED_BYTE, NULL);
-
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, FRAME_BUFFER_WIDTH, FRAME_BUFFER_HEIGHT, 0, GL_RGBA, GL_UNSIGNED_BYTE, NULL);
 
 	glGenRenderbuffers(1, &FBODepthBuffer);
 	glBindRenderbuffer(GL_RENDERBUFFER, FBODepthBuffer);
@@ -71,9 +68,9 @@ void createFramebuffer()
 	}
 	float vertices[] = {
 		-1, -1,
-		1, -1,
-		-1, 1,
-		1, 1,
+		 1, -1,
+		-1,  1,
+		 1,  1,
 
 	};
 
@@ -130,7 +127,6 @@ void initScene()
 	currentGameObject = loadFBXFromFile(modelPath);
 	currentGameObject->loadShader(vsPath, fsPath);
 	gameObjects.push_back(currentGameObject);
-
 }
 
 void cleanUpFrambuffer()
@@ -206,7 +202,6 @@ void renderGameObject(shared_ptr<GameObject> gameObject)
 	glUniform1f(specularPowerLocation, gameObject->getSpecularPower());
 	glUniform3fv(cameraPositionLocation, 1, value_ptr(cameraPosition));
 
-
 	glBindVertexArray(gameObject->getVertexArrayObject());
 
 	glDrawElements(GL_TRIANGLES, gameObject->getNumberOfIndices(), GL_UNSIGNED_INT, 0);
@@ -255,7 +250,6 @@ void renderPostQuad()
 	glBindVertexArray(fullScreenVAO);
 
 	glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
-
 }
 
 void render()
@@ -277,7 +271,7 @@ int main(int argc, char * arg[])
 
 		return -1;
 	}
-	//
+
 	int	imageInitFlags = IMG_INIT_JPG | IMG_INIT_PNG;
 	int	returnInitFlags = IMG_Init(imageInitFlags);
 	if (((returnInitFlags)&	(imageInitFlags)) != imageInitFlags)	{
@@ -295,14 +289,7 @@ int main(int argc, char * arg[])
 	SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 1);
 
 	//Create a window
-	SDL_Window * window = SDL_CreateWindow(
-		"SDL",             // window title
-		SDL_WINDOWPOS_CENTERED,     // x position, centered
-		SDL_WINDOWPOS_CENTERED,     // y position, centered
-		640,                        // width, in pixels
-		480,                        // height, in pixels
-		SDL_WINDOW_OPENGL           // flags
-		);
+	SDL_Window * window = SDL_CreateWindow("SDL", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 640, 480, SDL_WINDOW_OPENGL);
 
 	// Create an OpenGL context associated with the window.
 	SDL_GLContext glcontext = SDL_GL_CreateContext(window);
@@ -347,7 +334,6 @@ int main(int argc, char * arg[])
 		render();
 		//Call swap so that our GL back buffer is displayed
 		SDL_GL_SwapWindow(window);
-
 	}
 
 	// clean up, reverse order!!!

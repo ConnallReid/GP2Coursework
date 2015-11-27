@@ -8,7 +8,6 @@ GLuint	loadTextureFromFile(const string&	filename)
 		cout << "Can't Load	image " << filename << " " << IMG_GetError();
 		return	0;
 	}
-
 	GLuint textureID = convertSDLSurfaceToTexture(imageSurface);
 	SDL_FreeSurface(imageSurface);
 
@@ -41,7 +40,7 @@ GLuint convertSDLSurfaceToTexture(SDL_Surface * surface)
 	GLenum	textureFormat = GL_RGB;
 	GLenum	internalFormat = GL_RGB8;
 
-	if (nOfColors == 4)					//	contains	an	alpha	channel
+	if (nOfColors == 4)	 //	contains	an	alpha	channel
 	{
 		if (surface->format->Rmask == 0x000000ff){
 			textureFormat = GL_RGBA;
@@ -52,7 +51,7 @@ GLuint convertSDLSurfaceToTexture(SDL_Surface * surface)
 			internalFormat = GL_RGBA8;
 		}
 	}
-	else if (nOfColors == 3)					//	no	alpha	channel
+	else if (nOfColors == 3)  //	no	alpha	channel
 	{
 		if (surface->format->Rmask == 0x000000ff){
 			textureFormat = GL_RGB;
@@ -71,8 +70,7 @@ GLuint convertSDLSurfaceToTexture(SDL_Surface * surface)
 	glGenTextures(1, &textureID);
 	glActiveTexture(GL_TEXTURE0);
 	glBindTexture(GL_TEXTURE_2D, textureID);
-	glTexImage2D(GL_TEXTURE_2D, 0, internalFormat, surface->w, surface->h, 0, textureFormat,
-		GL_UNSIGNED_BYTE, surface->pixels);
+	glTexImage2D(GL_TEXTURE_2D, 0, internalFormat, surface->w, surface->h, 0, textureFormat, GL_UNSIGNED_BYTE, surface->pixels);
 
 	return textureID;
 }
