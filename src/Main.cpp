@@ -329,12 +329,22 @@ int main(int argc, char * arg[])
 				switch (event.key.keysym.sym)
 				{
 				case SDLK_LEFT:
+					cameraPosition.x--;
 					break;
 				case SDLK_RIGHT:
+					cameraPosition.x++;
 					break;
 				case SDLK_UP:
+					cameraPosition.y++;
 					break;
 				case SDLK_DOWN:
+					cameraPosition.y--;
+					break;
+				case SDLK_RCTRL:
+					cameraPosition.z++;
+					break;
+				case SDLK_LCTRL:
+					cameraPosition.z--;
 					break;
 				default:
 					break;
