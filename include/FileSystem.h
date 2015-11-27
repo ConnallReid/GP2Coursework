@@ -1,4 +1,8 @@
-#ifndef _FYLESYSTEM_H
-#define _FYLESYSTEM_H
+#ifndef _FILESYSTEM_H
+#define _FILESYSTEM_H
+
+#include "Common.h"
+
+void ChangeWorkingDirectory();
 
 #endif

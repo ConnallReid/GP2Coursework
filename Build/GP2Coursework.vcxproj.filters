@@ -60,10 +60,10 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{CB8ECBA4-F746-4E6E-88E2-608C79408B87}</UniqueIdentifier>
+      <UniqueIdentifier>{CFDB9B22-D82E-4303-BF04-674D626AAFE9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{DC205C91-D3B6-4889-B6E6-67462BED5D57}</UniqueIdentifier>
+      <UniqueIdentifier>{678710D2-F7E2-46F4-AE3F-B531DDC4BE1F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

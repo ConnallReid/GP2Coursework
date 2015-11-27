@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{83412368-3E2C-4A21-BDA2-F1D1EF3CB4DF}</ProjectGUID>
+    <ProjectGUID>{6E1919F3-975A-41C2-985B-7F2614A95804}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -163,10 +163,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/Users/Connall/Documents/GitHub/GP2Coursework/Build/GP2Coursework.vcxproj">
-      <Project>9BE25F4F-7D84-43DB-9807-6FA584D33416</Project>
+      <Project>037EA924-2CE9-4774-B673-A986F05B1152</Project>
     </ProjectReference>
     <ProjectReference Include="C:/Users/Connall/Documents/GitHub/GP2Coursework/Build/ZERO_CHECK.vcxproj">
-      <Project>6EDE5A2F-4601-48D2-8C8D-E3B1B6B25F88</Project>
+      <Project>9640C601-F147-4CF0-8ACF-9F7DE6766DBF</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
