@@ -1,69 +1,69 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\src\FBXLoader.cpp">
+    <ClCompile Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\src\FBXLoader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\src\FileSystem.cpp">
+    <ClCompile Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\src\FileSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\src\GameObject.cpp">
+    <ClCompile Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\src\GameObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\src\Graphics.cpp">
+    <ClCompile Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\src\Graphics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\src\Main.cpp">
+    <ClCompile Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\src\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\src\Shader.cpp">
+    <ClCompile Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\src\Shader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\src\Texture.cpp">
+    <ClCompile Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\src\Texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\Common.h">
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\Common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\Cube.h">
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\Cube.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\FBXLoader.h">
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\FBXLoader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\FileSystem.h">
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\FileSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\GameObject.h">
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\GameObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\Graphics.h">
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\Graphics.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\Mesh.h">
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\Mesh.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\Shader.h">
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\Shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\Texture.h">
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\Texture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\Vertices.h">
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\Vertices.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{5126D431-59C5-420A-B192-91B580E5BF23}</UniqueIdentifier>
+      <UniqueIdentifier>{94948F24-F13E-4DAB-9D30-DB83C3E5E92A}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{73E04195-E10D-410C-996C-5D9A1005DC97}</UniqueIdentifier>
+      <UniqueIdentifier>{E996B7B4-8EBC-4BFC-9767-A4A7D20081EA}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -24,6 +24,7 @@ float specularPower = 25.0f;
 
 vec3 lightDirection = vec3(0.0f, 0.0f, 1.0f);
 vec3 cameraPosition = vec3(0.0f, 10.0f, 50.0f);
+vec3 cameraLookAt = vec3(0.0f, 0.0f, 0.0f);
 
 //for Framebuffer
 GLuint FBOTexture;
@@ -158,7 +159,7 @@ void update()
 
 	projMatrix = perspective(45.0f, 640.0f / 480.0f, 0.1f, 100.0f);
 
-	viewMatrix = lookAt(cameraPosition, vec3(0.0f, 0.0f, 0.0f), vec3(0.0f, 1.0f, 0.0f));
+	viewMatrix = lookAt(cameraPosition, cameraLookAt, vec3(0.0f, 1.0f, 0.0f));
 
 	for (auto iter = gameObjects.begin(); iter != gameObjects.end(); iter++)
 	{
@@ -330,21 +331,48 @@ int main(int argc, char * arg[])
 				{
 				case SDLK_LEFT:
 					cameraPosition.x--;
+					cameraLookAt.x--;
 					break;
 				case SDLK_RIGHT:
 					cameraPosition.x++;
+					cameraLookAt.x++;
 					break;
 				case SDLK_UP:
 					cameraPosition.y++;
+					cameraLookAt.y++;
 					break;
 				case SDLK_DOWN:
 					cameraPosition.y--;
+					cameraLookAt.y--;
 					break;
 				case SDLK_RCTRL:
 					cameraPosition.z++;
+					cameraLookAt.z++;
 					break;
 				case SDLK_LCTRL:
 					cameraPosition.z--;
+					cameraLookAt.z--;
+					break;
+				case SDLK_RSHIFT:
+					cameraLookAt.x--;
+					break;
+				case SDLK_LSHIFT:
+					cameraLookAt.x++;
+					break;
+				case SDLK_RALT:
+					if (cameraLookAt.x < 90)
+					{
+						cameraLookAt.x++;
+						cameraLookAt.z--;
+					}
+					else
+					{
+						cameraLookAt.x--;
+						cameraLookAt.z++;
+					}
+					break;
+				case SDLK_LALT:
+
 					break;
 				default:
 					break;

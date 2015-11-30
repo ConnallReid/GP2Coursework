@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{CFE26A7E-4EB9-417E-A864-EFDB325713AE}</ProjectGUID>
+    <ProjectGUID>{A258BFC0-E06B-4983-BE93-F1797EB2C8F7}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>GP2Coursework</ProjectName>
@@ -58,25 +58,25 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GP2Coursework.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GP2Coursework</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GP2Coursework.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GP2Coursework</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GP2Coursework.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GP2Coursework</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GP2Coursework.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GP2Coursework</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /EHsc"%3B"-std=c++0x -ftest-coverage -fprofile-arcs %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\Users\tvanet200\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include;C:\Specialised Applications\SDL2\include;C:\Specialised Applications\glew-1.11.0\include;C:\Specialised Applications\glm;C:\Specialised Applications\SDL2_image-2.0.0\include;C:\Specialised Applications\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Tim\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\Tim\Documents\GitHub\GP2Coursework\include;C:\SDL2-2.0.3\include;C:\glew-1.12.0\include;C:\glm;C:\SDL2_image-2.0.0\include;C:\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -103,10 +103,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\tvanet200\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include;C:\Specialised Applications\SDL2\include;C:\Specialised Applications\glew-1.11.0\include;C:\Specialised Applications\glm;C:\Specialised Applications\SDL2_image-2.0.0\include;C:\Specialised Applications\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Tim\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\Tim\Documents\GitHub\GP2Coursework\include;C:\SDL2-2.0.3\include;C:\glew-1.12.0\include;C:\glm;C:\SDL2_image-2.0.0\include;C:\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\tvanet200\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include;C:\Specialised Applications\SDL2\include;C:\Specialised Applications\glew-1.11.0\include;C:\Specialised Applications\glm;C:\Specialised Applications\SDL2_image-2.0.0\include;C:\Specialised Applications\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Tim\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\Tim\Documents\GitHub\GP2Coursework\include;C:\SDL2-2.0.3\include;C:\glew-1.12.0\include;C:\glm;C:\SDL2_image-2.0.0\include;C:\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -116,7 +116,7 @@
     <PreBuildEvent>
       <Message></Message>
       <Command>setlocal
-C:\StreamingApps\CMake\bin\cmake.exe -E copy_directory C:/Users/tvanet200/Documents/GitHub/GP2Coursework/assets C:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build/Debug/assets
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_directory C:/Users/Tim/Documents/GitHub/GP2Coursework/assets C:/Users/Tim/Documents/GitHub/GP2Coursework/Build/Debug/assets
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -128,7 +128,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-C:\StreamingApps\CMake\bin\cmake.exe -E copy_directory C:/Users/tvanet200/Documents/GitHub/GP2Coursework/dlls C:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build/Debug
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_directory C:/Users/Tim/Documents/GitHub/GP2Coursework/dlls C:/Users/Tim/Documents/GitHub/GP2Coursework/Build/Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -139,12 +139,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
       <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Specialised Applications\SDL2\lib\x64\SDL2main.lib;C:\Specialised Applications\SDL2\lib\x64\SDL2.lib;glu32.lib;opengl32.lib;C:\Specialised Applications\glew-1.11.0\lib\Release\x64\glew32.lib;C:\Specialised Applications\SDL2_image-2.0.0\lib\x64\SDL2_image.lib;C:\Specialised Applications\SDL2_ttf-2.0.12\lib\x64\SDL2_ttf.lib;C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\lib\vs2013\x64\release\libfbxsdk.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\SDL2-2.0.3\lib\x64\SDL2main.lib;C:\SDL2-2.0.3\lib\x64\SDL2.lib;glu32.lib;opengl32.lib;C:\glew-1.12.0\lib\Release\x64\glew32.lib;C:\SDL2_image-2.0.0\lib\x64\SDL2_image.lib;C:\SDL2_ttf-2.0.12\lib\x64\SDL2_ttf.lib;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\lib\vs2013\x64\release\libfbxsdk.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build/Debug/GP2Coursework.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build/Debug/GP2Coursework.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Tim/Documents/GitHub/GP2Coursework/Build/Debug/GP2Coursework.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Tim/Documents/GitHub/GP2Coursework/Build/Debug/GP2Coursework.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -155,7 +155,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalOptions> /EHsc"%3B"-std=c++0x -ftest-coverage -fprofile-arcs %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\Users\tvanet200\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include;C:\Specialised Applications\SDL2\include;C:\Specialised Applications\glew-1.11.0\include;C:\Specialised Applications\glm;C:\Specialised Applications\SDL2_image-2.0.0\include;C:\Specialised Applications\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Tim\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\Tim\Documents\GitHub\GP2Coursework\include;C:\SDL2-2.0.3\include;C:\glew-1.12.0\include;C:\glm;C:\SDL2_image-2.0.0\include;C:\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -171,10 +171,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\tvanet200\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include;C:\Specialised Applications\SDL2\include;C:\Specialised Applications\glew-1.11.0\include;C:\Specialised Applications\glm;C:\Specialised Applications\SDL2_image-2.0.0\include;C:\Specialised Applications\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Tim\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\Tim\Documents\GitHub\GP2Coursework\include;C:\SDL2-2.0.3\include;C:\glew-1.12.0\include;C:\glm;C:\SDL2_image-2.0.0\include;C:\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\tvanet200\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include;C:\Specialised Applications\SDL2\include;C:\Specialised Applications\glew-1.11.0\include;C:\Specialised Applications\glm;C:\Specialised Applications\SDL2_image-2.0.0\include;C:\Specialised Applications\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Tim\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\Tim\Documents\GitHub\GP2Coursework\include;C:\SDL2-2.0.3\include;C:\glew-1.12.0\include;C:\glm;C:\SDL2_image-2.0.0\include;C:\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -184,7 +184,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreBuildEvent>
       <Message></Message>
       <Command>setlocal
-C:\StreamingApps\CMake\bin\cmake.exe -E copy_directory C:/Users/tvanet200/Documents/GitHub/GP2Coursework/assets C:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build/Release/assets
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_directory C:/Users/Tim/Documents/GitHub/GP2Coursework/assets C:/Users/Tim/Documents/GitHub/GP2Coursework/Build/Release/assets
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -196,7 +196,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-C:\StreamingApps\CMake\bin\cmake.exe -E copy_directory C:/Users/tvanet200/Documents/GitHub/GP2Coursework/dlls C:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build/Release
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_directory C:/Users/Tim/Documents/GitHub/GP2Coursework/dlls C:/Users/Tim/Documents/GitHub/GP2Coursework/Build/Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -207,12 +207,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
       <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Specialised Applications\SDL2\lib\x64\SDL2main.lib;C:\Specialised Applications\SDL2\lib\x64\SDL2.lib;glu32.lib;opengl32.lib;C:\Specialised Applications\glew-1.11.0\lib\Release\x64\glew32.lib;C:\Specialised Applications\SDL2_image-2.0.0\lib\x64\SDL2_image.lib;C:\Specialised Applications\SDL2_ttf-2.0.12\lib\x64\SDL2_ttf.lib;C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\lib\vs2013\x64\release\libfbxsdk.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\SDL2-2.0.3\lib\x64\SDL2main.lib;C:\SDL2-2.0.3\lib\x64\SDL2.lib;glu32.lib;opengl32.lib;C:\glew-1.12.0\lib\Release\x64\glew32.lib;C:\SDL2_image-2.0.0\lib\x64\SDL2_image.lib;C:\SDL2_ttf-2.0.12\lib\x64\SDL2_ttf.lib;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\lib\vs2013\x64\release\libfbxsdk.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build/Release/GP2Coursework.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build/Release/GP2Coursework.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Tim/Documents/GitHub/GP2Coursework/Build/Release/GP2Coursework.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Tim/Documents/GitHub/GP2Coursework/Build/Release/GP2Coursework.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -223,7 +223,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
       <AdditionalOptions> /EHsc"%3B"-std=c++0x -ftest-coverage -fprofile-arcs %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\Users\tvanet200\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include;C:\Specialised Applications\SDL2\include;C:\Specialised Applications\glew-1.11.0\include;C:\Specialised Applications\glm;C:\Specialised Applications\SDL2_image-2.0.0\include;C:\Specialised Applications\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Tim\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\Tim\Documents\GitHub\GP2Coursework\include;C:\SDL2-2.0.3\include;C:\glew-1.12.0\include;C:\glm;C:\SDL2_image-2.0.0\include;C:\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -239,10 +239,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\tvanet200\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include;C:\Specialised Applications\SDL2\include;C:\Specialised Applications\glew-1.11.0\include;C:\Specialised Applications\glm;C:\Specialised Applications\SDL2_image-2.0.0\include;C:\Specialised Applications\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Tim\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\Tim\Documents\GitHub\GP2Coursework\include;C:\SDL2-2.0.3\include;C:\glew-1.12.0\include;C:\glm;C:\SDL2_image-2.0.0\include;C:\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\tvanet200\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include;C:\Specialised Applications\SDL2\include;C:\Specialised Applications\glew-1.11.0\include;C:\Specialised Applications\glm;C:\Specialised Applications\SDL2_image-2.0.0\include;C:\Specialised Applications\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Tim\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\Tim\Documents\GitHub\GP2Coursework\include;C:\SDL2-2.0.3\include;C:\glew-1.12.0\include;C:\glm;C:\SDL2_image-2.0.0\include;C:\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -252,7 +252,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreBuildEvent>
       <Message></Message>
       <Command>setlocal
-C:\StreamingApps\CMake\bin\cmake.exe -E copy_directory C:/Users/tvanet200/Documents/GitHub/GP2Coursework/assets C:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build/MinSizeRel/assets
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_directory C:/Users/Tim/Documents/GitHub/GP2Coursework/assets C:/Users/Tim/Documents/GitHub/GP2Coursework/Build/MinSizeRel/assets
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -264,7 +264,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-C:\StreamingApps\CMake\bin\cmake.exe -E copy_directory C:/Users/tvanet200/Documents/GitHub/GP2Coursework/dlls C:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build/MinSizeRel
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_directory C:/Users/Tim/Documents/GitHub/GP2Coursework/dlls C:/Users/Tim/Documents/GitHub/GP2Coursework/Build/MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -275,12 +275,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
       <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Specialised Applications\SDL2\lib\x64\SDL2main.lib;C:\Specialised Applications\SDL2\lib\x64\SDL2.lib;glu32.lib;opengl32.lib;C:\Specialised Applications\glew-1.11.0\lib\Release\x64\glew32.lib;C:\Specialised Applications\SDL2_image-2.0.0\lib\x64\SDL2_image.lib;C:\Specialised Applications\SDL2_ttf-2.0.12\lib\x64\SDL2_ttf.lib;C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\lib\vs2013\x64\release\libfbxsdk.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\SDL2-2.0.3\lib\x64\SDL2main.lib;C:\SDL2-2.0.3\lib\x64\SDL2.lib;glu32.lib;opengl32.lib;C:\glew-1.12.0\lib\Release\x64\glew32.lib;C:\SDL2_image-2.0.0\lib\x64\SDL2_image.lib;C:\SDL2_ttf-2.0.12\lib\x64\SDL2_ttf.lib;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\lib\vs2013\x64\release\libfbxsdk.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build/MinSizeRel/GP2Coursework.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build/MinSizeRel/GP2Coursework.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Tim/Documents/GitHub/GP2Coursework/Build/MinSizeRel/GP2Coursework.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Tim/Documents/GitHub/GP2Coursework/Build/MinSizeRel/GP2Coursework.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -291,7 +291,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
       <AdditionalOptions> /EHsc"%3B"-std=c++0x -ftest-coverage -fprofile-arcs %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\Users\tvanet200\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include;C:\Specialised Applications\SDL2\include;C:\Specialised Applications\glew-1.11.0\include;C:\Specialised Applications\glm;C:\Specialised Applications\SDL2_image-2.0.0\include;C:\Specialised Applications\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Tim\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\Tim\Documents\GitHub\GP2Coursework\include;C:\SDL2-2.0.3\include;C:\glew-1.12.0\include;C:\glm;C:\SDL2_image-2.0.0\include;C:\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -307,10 +307,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\tvanet200\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include;C:\Specialised Applications\SDL2\include;C:\Specialised Applications\glew-1.11.0\include;C:\Specialised Applications\glm;C:\Specialised Applications\SDL2_image-2.0.0\include;C:\Specialised Applications\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Tim\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\Tim\Documents\GitHub\GP2Coursework\include;C:\SDL2-2.0.3\include;C:\glew-1.12.0\include;C:\glm;C:\SDL2_image-2.0.0\include;C:\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\tvanet200\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include;C:\Specialised Applications\SDL2\include;C:\Specialised Applications\glew-1.11.0\include;C:\Specialised Applications\glm;C:\Specialised Applications\SDL2_image-2.0.0\include;C:\Specialised Applications\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Tim\Documents\GitHub\GP2Coursework\GP2Coursework;C:\Users\Tim\Documents\GitHub\GP2Coursework\include;C:\SDL2-2.0.3\include;C:\glew-1.12.0\include;C:\glm;C:\SDL2_image-2.0.0\include;C:\SDL2_ttf-2.0.12\include;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -320,7 +320,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreBuildEvent>
       <Message></Message>
       <Command>setlocal
-C:\StreamingApps\CMake\bin\cmake.exe -E copy_directory C:/Users/tvanet200/Documents/GitHub/GP2Coursework/assets C:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build/RelWithDebInfo/assets
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_directory C:/Users/Tim/Documents/GitHub/GP2Coursework/assets C:/Users/Tim/Documents/GitHub/GP2Coursework/Build/RelWithDebInfo/assets
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -332,7 +332,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-C:\StreamingApps\CMake\bin\cmake.exe -E copy_directory C:/Users/tvanet200/Documents/GitHub/GP2Coursework/dlls C:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build/RelWithDebInfo
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_directory C:/Users/Tim/Documents/GitHub/GP2Coursework/dlls C:/Users/Tim/Documents/GitHub/GP2Coursework/Build/RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -343,12 +343,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
       <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Specialised Applications\SDL2\lib\x64\SDL2main.lib;C:\Specialised Applications\SDL2\lib\x64\SDL2.lib;glu32.lib;opengl32.lib;C:\Specialised Applications\glew-1.11.0\lib\Release\x64\glew32.lib;C:\Specialised Applications\SDL2_image-2.0.0\lib\x64\SDL2_image.lib;C:\Specialised Applications\SDL2_ttf-2.0.12\lib\x64\SDL2_ttf.lib;C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\lib\vs2013\x64\release\libfbxsdk.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\SDL2-2.0.3\lib\x64\SDL2main.lib;C:\SDL2-2.0.3\lib\x64\SDL2.lib;glu32.lib;opengl32.lib;C:\glew-1.12.0\lib\Release\x64\glew32.lib;C:\SDL2_image-2.0.0\lib\x64\SDL2_image.lib;C:\SDL2_ttf-2.0.12\lib\x64\SDL2_ttf.lib;C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\lib\vs2013\x64\release\libfbxsdk.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build/RelWithDebInfo/GP2Coursework.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build/RelWithDebInfo/GP2Coursework.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Tim/Documents/GitHub/GP2Coursework/Build/RelWithDebInfo/GP2Coursework.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Tim/Documents/GitHub/GP2Coursework/Build/RelWithDebInfo/GP2Coursework.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -357,10 +357,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/tvanet200/Documents/GitHub/GP2Coursework/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Tim/Documents/GitHub/GP2Coursework/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\StreamingApps\CMake\bin\cmake.exe -HC:/Users/tvanet200/Documents/GitHub/GP2Coursework -BC:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build --check-stamp-file C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Tim/Documents/GitHub/GP2Coursework -BC:/Users/Tim/Documents/GitHub/GP2Coursework/Build --check-stamp-file C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -368,12 +368,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/tvanet200/Documents/GitHub/GP2Coursework/CMakeLists.txt;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\CMakeLists.txt;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findSDL2.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findSDL2_Image.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findSDL2_ttf.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindGLEW.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findGLM.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findFBX.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Tim/Documents/GitHub/GP2Coursework/CMakeLists.txt;C:\Users\Tim\Documents\GitHub\GP2Coursework\CMakeLists.txt;C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.0\CMakeCCompiler.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findSDL2.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findSDL2_Image.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findSDL2_ttf.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindGLEW.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findGLM.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findFBX.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/tvanet200/Documents/GitHub/GP2Coursework/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Tim/Documents/GitHub/GP2Coursework/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\StreamingApps\CMake\bin\cmake.exe -HC:/Users/tvanet200/Documents/GitHub/GP2Coursework -BC:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build --check-stamp-file C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Tim/Documents/GitHub/GP2Coursework -BC:/Users/Tim/Documents/GitHub/GP2Coursework/Build --check-stamp-file C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -381,12 +381,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/tvanet200/Documents/GitHub/GP2Coursework/CMakeLists.txt;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\CMakeLists.txt;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findSDL2.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findSDL2_Image.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findSDL2_ttf.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindGLEW.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findGLM.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findFBX.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Tim/Documents/GitHub/GP2Coursework/CMakeLists.txt;C:\Users\Tim\Documents\GitHub\GP2Coursework\CMakeLists.txt;C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.0\CMakeCCompiler.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findSDL2.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findSDL2_Image.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findSDL2_ttf.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindGLEW.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findGLM.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findFBX.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/tvanet200/Documents/GitHub/GP2Coursework/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Tim/Documents/GitHub/GP2Coursework/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-C:\StreamingApps\CMake\bin\cmake.exe -HC:/Users/tvanet200/Documents/GitHub/GP2Coursework -BC:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build --check-stamp-file C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Tim/Documents/GitHub/GP2Coursework -BC:/Users/Tim/Documents/GitHub/GP2Coursework/Build --check-stamp-file C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -394,12 +394,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/tvanet200/Documents/GitHub/GP2Coursework/CMakeLists.txt;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\CMakeLists.txt;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findSDL2.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findSDL2_Image.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findSDL2_ttf.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindGLEW.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findGLM.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findFBX.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Tim/Documents/GitHub/GP2Coursework/CMakeLists.txt;C:\Users\Tim\Documents\GitHub\GP2Coursework\CMakeLists.txt;C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.0\CMakeCCompiler.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findSDL2.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findSDL2_Image.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findSDL2_ttf.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindGLEW.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findGLM.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findFBX.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/tvanet200/Documents/GitHub/GP2Coursework/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Tim/Documents/GitHub/GP2Coursework/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-C:\StreamingApps\CMake\bin\cmake.exe -HC:/Users/tvanet200/Documents/GitHub/GP2Coursework -BC:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build --check-stamp-file C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Tim/Documents/GitHub/GP2Coursework -BC:/Users/Tim/Documents/GitHub/GP2Coursework/Build --check-stamp-file C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -407,33 +407,33 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/tvanet200/Documents/GitHub/GP2Coursework/CMakeLists.txt;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\CMakeLists.txt;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findSDL2.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findSDL2_Image.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findSDL2_ttf.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindGLEW.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findGLM.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\cmake\findFBX.cmake;C:\Users\tvanet200\Documents\GitHub\GP2Coursework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\tvanet200\Documents\GitHub\GP2Coursework\Build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Tim/Documents/GitHub/GP2Coursework/CMakeLists.txt;C:\Users\Tim\Documents\GitHub\GP2Coursework\CMakeLists.txt;C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.0\CMakeCCompiler.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\3.3.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findSDL2.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findSDL2_Image.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findSDL2_ttf.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindGLEW.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findGLM.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\cmake\findFBX.cmake;C:\Users\Tim\Documents\GitHub\GP2Coursework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\Common.h" />
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\Cube.h" />
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\FBXLoader.h" />
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\FileSystem.h" />
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\GameObject.h" />
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\Graphics.h" />
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\Mesh.h" />
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\Shader.h" />
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\Texture.h" />
-    <ClInclude Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\include\Vertices.h" />
-    <ClCompile Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\src\FBXLoader.cpp"  />
-    <ClCompile Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\src\FileSystem.cpp"  />
-    <ClCompile Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\src\GameObject.cpp"  />
-    <ClCompile Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\src\Graphics.cpp"  />
-    <ClCompile Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\src\Main.cpp"  />
-    <ClCompile Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\src\Shader.cpp"  />
-    <ClCompile Include="C:\Users\tvanet200\Documents\GitHub\GP2Coursework\src\Texture.cpp"  />
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\Common.h" />
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\Cube.h" />
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\FBXLoader.h" />
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\FileSystem.h" />
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\GameObject.h" />
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\Graphics.h" />
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\Mesh.h" />
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\Shader.h" />
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\Texture.h" />
+    <ClInclude Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\include\Vertices.h" />
+    <ClCompile Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\src\FBXLoader.cpp"  />
+    <ClCompile Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\src\FileSystem.cpp"  />
+    <ClCompile Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\src\GameObject.cpp"  />
+    <ClCompile Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\src\Graphics.cpp"  />
+    <ClCompile Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\src\Main.cpp"  />
+    <ClCompile Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\src\Shader.cpp"  />
+    <ClCompile Include="C:\Users\Tim\Documents\GitHub\GP2Coursework\src\Texture.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/Users/tvanet200/Documents/GitHub/GP2Coursework/Build/ZERO_CHECK.vcxproj">
-      <Project>B9C61D00-B989-4F46-B73E-AA6AFC86CDBD</Project>
+    <ProjectReference Include="C:/Users/Tim/Documents/GitHub/GP2Coursework/Build/ZERO_CHECK.vcxproj">
+      <Project>443D0072-CEB1-43B1-B392-F9B185EFB639</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
