@@ -113,20 +113,19 @@ void initScene()
 	currentTicks = SDL_GetTicks();
 	totalTime = 0.0f;
 	createFramebuffer();
-	string modelPath = ASSET_PATH + MODEL_PATH + "/utah-teapot.fbx";
+	string modelPath = ASSET_PATH + MODEL_PATH + "/mfalcon.fbx";
 	auto currentGameObject = loadFBXFromFile(modelPath);
 
 	string vsPath = ASSET_PATH + SHADER_PATH + "/specularVS.glsl";
 	string fsPath = ASSET_PATH + SHADER_PATH + "/specularFS.glsl";
 	currentGameObject->loadShader(vsPath, fsPath);
-	currentGameObject->setScale(vec3(0.3f, 0.3f, 0.3f));
-
+	currentGameObject->setScale(vec3(0.001f, 0.001f, 0.001f));
 	gameObjects.push_back(currentGameObject);
 
-	modelPath = ASSET_PATH + MODEL_PATH + "/armoredrecon.fbx";
+	/*modelPath = ASSET_PATH + MODEL_PATH + "/x-wing.fbx";
 	currentGameObject = loadFBXFromFile(modelPath);
 	currentGameObject->loadShader(vsPath, fsPath);
-	gameObjects.push_back(currentGameObject);
+	gameObjects.push_back(currentGameObject);*/
 }
 
 void cleanUpFrambuffer()
