@@ -1,4 +1,4 @@
-﻿Build started 29.11.2015 17:58:18.
+﻿Build started 3.12.2015 23:14:30.
      1>Project "C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\GP2Coursework.vcxproj" on node 2 (Build target(s)).
      1>PreBuildEvent:
          setlocal
@@ -28,6 +28,15 @@
      1>C:\Users\Tim\Documents\GitHub\GP2Coursework\include\Mesh.h(14): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
      1>C:\Users\Tim\Documents\GitHub\GP2Coursework\include\Mesh.h(19): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
      1>c:\users\tim\documents\github\gp2coursework\include\GameObject.h(37): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\Tim\Documents\GitHub\GP2Coursework\src\Main.cpp(59): warning C4244: '=' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>C:\Users\Tim\Documents\GitHub\GP2Coursework\src\Main.cpp(60): warning C4244: '=' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>C:\Users\Tim\Documents\GitHub\GP2Coursework\src\Main.cpp(66): warning C4244: '=' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>C:\Users\Tim\Documents\GitHub\GP2Coursework\src\Main.cpp(67): warning C4244: '=' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>C:\Users\Tim\Documents\GitHub\GP2Coursework\src\Main.cpp(72): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>C:\Users\Tim\Documents\GitHub\GP2Coursework\src\Main.cpp(408): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\Tim\Documents\GitHub\GP2Coursework\src\Main.cpp(409): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\Tim\Documents\GitHub\GP2Coursework\src\Main.cpp(411): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\Tim\Documents\GitHub\GP2Coursework\src\Main.cpp(412): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Tim\Documents\GitHub\GP2Coursework\Build\Debug\GP2Coursework.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\SDL2-2.0.3\lib\x64\SDL2main.lib" "C:\SDL2-2.0.3\lib\x64\SDL2.lib" glu32.lib opengl32.lib "C:\glew-1.12.0\lib\Release\x64\glew32.lib" "C:\SDL2_image-2.0.0\lib\x64\SDL2_image.lib" "C:\SDL2_ttf-2.0.12\lib\x64\SDL2_ttf.lib" "C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\lib\vs2013\x64\release\libfbxsdk.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Tim/Documents/GitHub/GP2Coursework/Build/Debug/GP2Coursework.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Tim/Documents/GitHub/GP2Coursework/Build/Debug/GP2Coursework.lib" /MACHINE:X64  /machine:x64 /debug GP2Coursework.dir\Debug\FBXLoader.obj
          GP2Coursework.dir\Debug\FileSystem.obj
@@ -52,4 +61,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:03.46
+Time Elapsed 00:00:02.91

@@ -8,6 +8,12 @@
 #include "FileSystem.h"
 #include "GameObject.h"
 
+//mouse test stuff
+GLfloat yaw1 = -90.0f;	// Yaw is initialized to -90.0 degrees since a yaw of 0.0 results in a direction vector pointing to the right (due to how Eular angles work) so we initially rotate a bit to the left.
+GLfloat pitch1 = 0.0f;
+GLfloat lastX = 640 / 2.0;
+GLfloat lastY = 480 / 2.0;
+
 //matrices
 mat4 viewMatrix;
 mat4 projMatrix;
@@ -42,6 +48,42 @@ float elapsedTime;
 float totalTime;
 
 vec2 screenResolution = vec2(FRAME_BUFFER_WIDTH, FRAME_BUFFER_HEIGHT);
+
+bool firstMouse = true;
+int x, y;
+void mouseTest()
+{
+	if (firstMouse)
+	{
+		SDL_GetMouseState(&x, &y);
+		lastX = x;
+		lastY = y;
+		firstMouse = false;
+	}
+	SDL_GetMouseState(&x, &y);
+	GLfloat xoffset = x - lastX;
+	GLfloat yoffset = lastY - y; //Y coordinates are reversed?
+	lastX = x;
+	lastY = y;
+
+	yaw1 += xoffset;
+	pitch1 += yoffset;
+
+	GLfloat sensitivity = 0.10;
+	xoffset *= sensitivity;
+	yoffset *= sensitivity;
+
+	//prevents the screen from flipping
+	/*if (pitch1 > 89.0f)
+		pitch1 = 89.0f;
+	if (pitch1 < -89.0f)
+		pitch1 = -89.0f;*/
+
+	cameraLookAt.x = cos(glm::radians(yaw1)) * cos(glm::radians(pitch1));
+	cameraLookAt.y = sin(glm::radians(pitch1));
+	cameraLookAt.z = sin(glm::radians(yaw1)) * cos(glm::radians(pitch1));
+	glm::normalize(cameraLookAt);
+}
 
 void createFramebuffer()
 {
@@ -131,7 +173,6 @@ void initScene()
 	currentGameObject = loadFBXFromFile(modelPath);
 	currentGameObject->loadShader(vsPath, fsPath);
 	gameObjects.push_back(currentGameObject);
-
 }
 
 void cleanUpFrambuffer()
@@ -158,6 +199,8 @@ void update()
 	totalTime += elapsedTime;
 
 	projMatrix = perspective(45.0f, 640.0f / 480.0f, 0.1f, 100.0f);
+
+	mouseTest();
 
 	viewMatrix = lookAt(cameraPosition, cameraLookAt, vec3(0.0f, 1.0f, 0.0f));
 
@@ -265,6 +308,7 @@ void render()
 	renderPostQuad();
 }
 
+
 int main(int argc, char * arg[])
 {
 	ChangeWorkingDirectory();
@@ -354,25 +398,21 @@ int main(int argc, char * arg[])
 					cameraLookAt.z--;
 					break;
 				case SDLK_RSHIFT:
-					cameraLookAt.x--;
+					cameraLookAt.x += 1;
+					cameraLookAt.z += 0.5;
 					break;
 				case SDLK_LSHIFT:
 					cameraLookAt.x++;
 					break;
 				case SDLK_RALT:
-					if (cameraLookAt.x < 90)
-					{
-						cameraLookAt.x++;
-						cameraLookAt.z--;
-					}
-					else
-					{
-						cameraLookAt.x--;
-						cameraLookAt.z++;
-					}
-					break;
+					cameraLookAt.x -= sin(1) * 2;
+					cameraLookAt.z += cos(1) * 2;
 				case SDLK_LALT:
-
+					cameraLookAt.x += sin(1)*2;
+					cameraLookAt.z += cos(1)*2;
+					break;
+				case SDLK_KP_ENTER:
+					mouseTest();
 					break;
 				default:
 					break;
