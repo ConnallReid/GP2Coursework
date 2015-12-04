@@ -1,4 +1,4 @@
-﻿Build started 27/11/2015 12:06:35.
+﻿Build started 04/12/2015 03:17:02.
      1>Project "C:\Users\Connall\Documents\GitHub\GP2Coursework\Build\GP2Coursework.vcxproj" on node 2 (Build target(s)).
      1>PreBuildEvent:
          setlocal
@@ -12,7 +12,7 @@
          if %errorlevel% neq 0 goto :VCEnd
          :VCEnd
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\Connall\Documents\GitHub\GP2Coursework\GP2Coursework /IC:\Users\Connall\Documents\GitHub\GP2Coursework\include /I"C:\Users\Connall\Desktop\GP2\SDL2-devel-2.0.3-VC\SDL2-2.0.3\include" /I"C:\Users\Connall\Desktop\GP2\glew-1.12.0-win32\glew-1.12.0\include" /I"C:\Users\Connall\Desktop\GP2\glm-0.9.7.0\glm" /I"C:\Users\Connall\Desktop\GP2\SDL2_image-devel-2.0.0-VC\SDL2_image-2.0.0\include" /I"C:\Users\Connall\Desktop\GP2\SDL2_ttf-2.0.12\include" /I"C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"GP2Coursework.dir\Debug\\" /Fd"GP2Coursework.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt  /EHsc";"-std=c++0x -ftest-coverage -fprofile-arcs C:\Users\Connall\Documents\GitHub\GP2Coursework\src\Graphics.cpp C:\Users\Connall\Documents\GitHub\GP2Coursework\src\Main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\Connall\Documents\GitHub\GP2Coursework\GP2Coursework /IC:\Users\Connall\Documents\GitHub\GP2Coursework\include /I"C:\Users\Connall\Desktop\GP2\SDL2-devel-2.0.3-VC\SDL2-2.0.3\include" /I"C:\Users\Connall\Desktop\GP2\glew-1.12.0-win32\glew-1.12.0\include" /I"C:\Users\Connall\Desktop\GP2\glm-0.9.7.0\glm" /I"C:\Users\Connall\Desktop\GP2\SDL2_image-devel-2.0.0-VC\SDL2_image-2.0.0\include" /I"C:\Users\Connall\Desktop\GP2\SDL2_ttf-2.0.12\include" /I"C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"GP2Coursework.dir\Debug\\" /Fd"GP2Coursework.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt  /EHsc";"-std=c++0x -ftest-coverage -fprofile-arcs C:\Users\Connall\Documents\GitHub\GP2Coursework\src\Main.cpp
      1>cl : Command line warning D9002: ignoring unknown option '/EH;'
      1>cl : Command line warning D9002: ignoring unknown option '/EH-'
      1>cl : Command line warning D9002: ignoring unknown option '/EHt'
@@ -24,12 +24,10 @@
      1>cl : Command line warning D9002: ignoring unknown option '/EHx'
      1>cl : Command line warning D9002: ignoring unknown option '-ftest-coverage'
      1>cl : Command line warning D9002: ignoring unknown option '-fprofile-arcs'
-         Graphics.cpp
          Main.cpp
      1>C:\Users\Connall\Documents\GitHub\GP2Coursework\include\Mesh.h(14): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
      1>C:\Users\Connall\Documents\GitHub\GP2Coursework\include\Mesh.h(19): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
-     1>c:\users\connall\documents\github\gp2coursework\include\GameObject.h(37): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
-         Generating Code...
+     1>c:\users\connall\documents\github\gp2coursework\include\GameObject.h(35): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Connall\Documents\GitHub\GP2Coursework\Build\Debug\GP2Coursework.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Users\Connall\Desktop\GP2\SDL2-devel-2.0.3-VC\SDL2-2.0.3\lib\x64\SDL2main.lib" "C:\Users\Connall\Desktop\GP2\SDL2-devel-2.0.3-VC\SDL2-2.0.3\lib\x64\SDL2.lib" glu32.lib opengl32.lib "C:\Users\Connall\Desktop\GP2\glew-1.12.0-win32\glew-1.12.0\lib\Release\x64\glew32.lib" "C:\Users\Connall\Desktop\GP2\SDL2_image-devel-2.0.0-VC\SDL2_image-2.0.0\lib\x64\SDL2_image.lib" "C:\Users\Connall\Desktop\GP2\SDL2_ttf-2.0.12\lib\x64\SDL2_ttf.lib" "C:\Program Files\Autodesk\FBX\FBX SDK\2016.1\lib\vs2013\x64\release\libfbxsdk.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Connall/Documents/GitHub/GP2Coursework/Build/Debug/GP2Coursework.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Connall/Documents/GitHub/GP2Coursework/Build/Debug/GP2Coursework.lib" /MACHINE:X64  /machine:x64 /debug GP2Coursework.dir\Debug\FBXLoader.obj
          GP2Coursework.dir\Debug\FileSystem.obj
@@ -54,4 +52,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:07.04
+Time Elapsed 00:00:05.08

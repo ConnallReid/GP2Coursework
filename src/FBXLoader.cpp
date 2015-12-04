@@ -7,7 +7,6 @@ void PrintTabs() {
 		printf("\t");
 }
 
-
 //Return a string-based representation based on the attribute type.
 FbxString GetAttributeTypeName(FbxNodeAttribute::EType type) {
 	switch (type) {

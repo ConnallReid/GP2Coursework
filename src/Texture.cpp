@@ -11,7 +11,7 @@ GLuint	loadTextureFromFile(const string&	filename)
 	GLuint textureID = convertSDLSurfaceToTexture(imageSurface);
 	SDL_FreeSurface(imageSurface);
 
-	return textureID;
+	//return textureID;
 }
 
 GLuint	loadTextureFromFont(const string& fontFilename, int	pointSize, const string& text)
@@ -35,7 +35,7 @@ GLuint	loadTextureFromFont(const string& fontFilename, int	pointSize, const stri
 GLuint convertSDLSurfaceToTexture(SDL_Surface * surface)
 {
 	GLuint textureID = 0;
-	GLint		nOfColors = surface->format->BytesPerPixel;
+	GLint	nOfColors = surface->format->BytesPerPixel;
 
 	GLenum	textureFormat = GL_RGB;
 	GLenum	internalFormat = GL_RGB8;

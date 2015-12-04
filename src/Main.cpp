@@ -16,13 +16,15 @@ mat4 MVPMatrix;
 vector<shared_ptr<GameObject> > gameObjects;
 GLuint currentShaderProgam = 0;
 
+GLuint textureMap;
+
 vec4 ambientLightColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
 vec4 diffuseLightColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
 vec4 specularLightColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
 float specularPower = 25.0f;
 
 vec3 lightDirection = vec3(0.0f, 0.0f, 1.0f);
-vec3 cameraPosition = vec3(0.0f, 10.0f, 50.0f);
+vec3 cameraPosition = vec3(15.0f, 15.0f, 25.0f);
 
 //for Framebuffer
 GLuint FBOTexture;
@@ -71,7 +73,6 @@ void createFramebuffer()
 		 1, -1,
 		-1,  1,
 		 1,  1,
-
 	};
 
 	glGenVertexArrays(1, &fullScreenVAO);
@@ -113,24 +114,32 @@ void initScene()
 	currentTicks = SDL_GetTicks();
 	totalTime = 0.0f;
 	createFramebuffer();
-	string modelPath = ASSET_PATH + MODEL_PATH + "/utah-teapot.fbx";
-	auto currentGameObject = loadFBXFromFile(modelPath);
-
 	string vsPath = ASSET_PATH + SHADER_PATH + "/specularVS.glsl";
 	string fsPath = ASSET_PATH + SHADER_PATH + "/specularFS.glsl";
-	currentGameObject->loadShader(vsPath, fsPath);
-	currentGameObject->setScale(vec3(0.3f, 0.3f, 0.3f));
 
+	//Model 1
+	string modelPath = ASSET_PATH + MODEL_PATH + "/X-Wing.fbx";
+	string texturePath = ASSET_PATH + TEXTURE_PATH + "/X-Wing/X-Wing.png";
+	auto currentGameObject = loadFBXFromFile(modelPath);
+	currentGameObject->loadShader(vsPath, fsPath);
+	currentGameObject->setScale(vec3(0.5f, 0.5f, 0.5f));
+	currentGameObject->setPosition(vec3(0.0f, 0.0f, 500.0f));
 	gameObjects.push_back(currentGameObject);
 
-	modelPath = ASSET_PATH + MODEL_PATH + "/armoredrecon.fbx";
+	//Model 2
+	modelPath = ASSET_PATH + MODEL_PATH + "/VaderTie-Fighter.fbx";
+	texturePath = ASSET_PATH + TEXTURE_PATH + "";
+	textureMap = loadTextureFromFile(texturePath);
 	currentGameObject = loadFBXFromFile(modelPath);
 	currentGameObject->loadShader(vsPath, fsPath);
+	currentGameObject->setScale(vec3(0.5f, 0.5f, 0.5f));
+	currentGameObject->setPosition(vec3(0.0f, 0.0f, -500.0f));
 	gameObjects.push_back(currentGameObject);
 }
 
 void cleanUpFrambuffer()
 {
+	glDeleteTextures(1, &textureMap);
 	glDeleteProgram(fullScreenShaderProgram);
 	glDeleteBuffers(1, &fullScreenVBO);
 	glDeleteVertexArrays(1, &fullScreenVAO);
