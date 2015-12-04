@@ -1,4 +1,4 @@
-﻿Build started 04/12/2015 03:17:02.
+﻿Build started 04/12/2015 12:46:13.
      1>Project "C:\Users\Connall\Documents\GitHub\GP2Coursework\Build\GP2Coursework.vcxproj" on node 2 (Build target(s)).
      1>PreBuildEvent:
          setlocal
@@ -52,4 +52,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:05.08
+Time Elapsed 00:00:07.37

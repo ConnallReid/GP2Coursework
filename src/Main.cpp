@@ -121,10 +121,11 @@ void initScene()
 	string modelPath = ASSET_PATH + MODEL_PATH + "/X-Wing.fbx";
 	string texturePath = ASSET_PATH + TEXTURE_PATH + "/X-Wing/X-Wing.png";
 	auto currentGameObject = loadFBXFromFile(modelPath);
+	textureMap = loadTextureFromFile(texturePath);
 	currentGameObject->loadShader(vsPath, fsPath);
 	currentGameObject->setScale(vec3(0.5f, 0.5f, 0.5f));
 	currentGameObject->setPosition(vec3(0.0f, 0.0f, 500.0f));
-	gameObjects.push_back(currentGameObject);
+	gameObjects.push_back(currentGameObject); 
 
 	//Model 2
 	modelPath = ASSET_PATH + MODEL_PATH + "/VaderTie-Fighter.fbx";
