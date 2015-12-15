@@ -8,11 +8,13 @@
 #include "FileSystem.h"
 #include "GameObject.h"
 
-//mouse test stuff
-GLfloat yaw1 = -90.0f;	// Yaw is initialized to -90.0 degrees since a yaw of 0.0 results in a direction vector pointing to the right (due to how Eular angles work) so we initially rotate a bit to the left.
-GLfloat pitch1 = 0.0f;
-GLfloat lastX = 640 / 2.0;
-GLfloat lastY = 480 / 2.0;
+//mouse movement
+int mouseX, mouseY;
+float vAngle = 0;
+float hAngle = 3.14f;
+float mSpeed = 0.01f;
+float speed = 2;
+vec3 rightVector;
 
 //matrices
 mat4 viewMatrix;
@@ -49,40 +51,25 @@ float totalTime;
 
 vec2 screenResolution = vec2(FRAME_BUFFER_WIDTH, FRAME_BUFFER_HEIGHT);
 
-bool firstMouse = true;
-int x, y;
-void mouseTest()
+void mouseMovement()
 {
-	if (firstMouse)
+	SDL_GetMouseState(&mouseX, &mouseY);
+	hAngle += mSpeed * float(FRAME_BUFFER_WIDTH / 2 - mouseX);
+	if (degrees(hAngle) > 360.0f)
 	{
-		SDL_GetMouseState(&x, &y);
-		lastX = x;
-		lastY = y;
-		firstMouse = false;
+		hAngle = radians(0.0f);
 	}
-	SDL_GetMouseState(&x, &y);
-	GLfloat xoffset = x - lastX;
-	GLfloat yoffset = lastY - y; //Y coordinates are reversed?
-	lastX = x;
-	lastY = y;
-
-	yaw1 += xoffset;
-	pitch1 += yoffset;
-
-	GLfloat sensitivity = 0.10;
-	xoffset *= sensitivity;
-	yoffset *= sensitivity;
-
-	//prevents the screen from flipping
-	/*if (pitch1 > 89.0f)
-		pitch1 = 89.0f;
-	if (pitch1 < -89.0f)
-		pitch1 = -89.0f;*/
-
-	cameraLookAt.x = cos(glm::radians(yaw1)) * cos(glm::radians(pitch1));
-	cameraLookAt.y = sin(glm::radians(pitch1));
-	cameraLookAt.z = sin(glm::radians(yaw1)) * cos(glm::radians(pitch1));
-	glm::normalize(cameraLookAt);
+	else if (degrees(hAngle) < 0.0f)
+	{
+		hAngle = radians(360.0f);
+	}
+	vAngle += mSpeed * float(FRAME_BUFFER_HEIGHT / 2 - mouseY);
+	if (degrees(vAngle) >= 90.0f)
+	{
+		vAngle = radians(-89.9f);
+	}
+	cameraLookAt = vec3(cos(vAngle)*sin(hAngle), sin(vAngle), cos(vAngle)*cos(hAngle));
+	rightVector = vec3(sin(hAngle - 3.14 / 2), 0, cos(hAngle - 3.14 / 2));
 }
 
 void createFramebuffer()
@@ -173,6 +160,7 @@ void initScene()
 	currentGameObject = loadFBXFromFile(modelPath);
 	currentGameObject->loadShader(vsPath, fsPath);
 	gameObjects.push_back(currentGameObject);
+	SDL_ShowCursor(0);
 }
 
 void cleanUpFrambuffer()
@@ -200,9 +188,7 @@ void update()
 
 	projMatrix = perspective(45.0f, 640.0f / 480.0f, 0.1f, 100.0f);
 
-	mouseTest();
-
-	viewMatrix = lookAt(cameraPosition, cameraLookAt, vec3(0.0f, 1.0f, 0.0f));
+	viewMatrix = lookAt(cameraPosition, cameraLookAt + cameraPosition, vec3(0.0f, 1.0f, 0.0f));
 
 	for (auto iter = gameObjects.begin(); iter != gameObjects.end(); iter++)
 	{
@@ -373,46 +359,44 @@ int main(int argc, char * arg[])
 			if (event.type == SDL_KEYDOWN){
 				switch (event.key.keysym.sym)
 				{
-				case SDLK_LEFT:
-					cameraPosition.x--;
-					cameraLookAt.x--;
+				case SDLK_a:
+					/*cameraPosition.x--;
+					cameraLookAt.x--;*/
+					cameraPosition -= rightVector * speed;
+					cout << "left" << endl;
 					break;
-				case SDLK_RIGHT:
-					cameraPosition.x++;
-					cameraLookAt.x++;
+				case SDLK_d:
+					/*cameraPosition.x++;
+					cameraLookAt.x++;*/
+					cameraPosition += rightVector * speed;
+					cout << "right" << endl;
 					break;
 				case SDLK_UP:
 					cameraPosition.y++;
 					cameraLookAt.y++;
+					cout << "up" << endl;
 					break;
 				case SDLK_DOWN:
 					cameraPosition.y--;
 					cameraLookAt.y--;
+					cout << "down" << endl;
 					break;
-				case SDLK_RCTRL:
-					cameraPosition.z++;
-					cameraLookAt.z++;
+				case SDLK_w:
+					/*cameraPosition.z++;
+					cameraLookAt.z++;*/
+					cameraPosition += cameraLookAt * speed;
+					cout << "in" << endl;
 					break;
-				case SDLK_LCTRL:
-					cameraPosition.z--;
-					cameraLookAt.z--;
+				case SDLK_s:
+					/*cameraPosition.z--;
+					cameraLookAt.z--;*/
+					cameraPosition -= cameraLookAt * speed;
+					cout << "out" << endl;
 					break;
-				case SDLK_RSHIFT:
-					cameraLookAt.x += 1;
-					cameraLookAt.z += 0.5;
+				case SDLK_SPACE:
 					break;
-				case SDLK_LSHIFT:
-					cameraLookAt.x++;
-					break;
-				case SDLK_RALT:
-					cameraLookAt.x -= sin(1) * 2;
-					cameraLookAt.z += cos(1) * 2;
-				case SDLK_LALT:
-					cameraLookAt.x += sin(1)*2;
-					cameraLookAt.z += cos(1)*2;
-					break;
-				case SDLK_KP_ENTER:
-					mouseTest();
+				case SDLK_ESCAPE:
+					run = false;
 					break;
 				default:
 					break;
@@ -420,6 +404,8 @@ int main(int argc, char * arg[])
 			}
 		}
 		//init Scene
+		mouseMovement();
+		SDL_WarpMouseInWindow(window, FRAME_BUFFER_WIDTH / 2, FRAME_BUFFER_HEIGHT / 2);
 		update();
 		//render
 		render();
@@ -435,6 +421,5 @@ int main(int argc, char * arg[])
 	IMG_Quit();
 	TTF_Quit();
 	SDL_Quit();
-
 	return 0;
 }
