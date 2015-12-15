@@ -360,42 +360,25 @@ int main(int argc, char * arg[])
 				switch (event.key.keysym.sym)
 				{
 				case SDLK_a:
-					/*cameraPosition.x--;
-					cameraLookAt.x--;*/
 					cameraPosition -= rightVector * speed;
 					cout << "left" << endl;
 					break;
 				case SDLK_d:
-					/*cameraPosition.x++;
-					cameraLookAt.x++;*/
 					cameraPosition += rightVector * speed;
 					cout << "right" << endl;
 					break;
-				case SDLK_UP:
-					cameraPosition.y++;
-					cameraLookAt.y++;
-					cout << "up" << endl;
-					break;
-				case SDLK_DOWN:
-					cameraPosition.y--;
-					cameraLookAt.y--;
-					cout << "down" << endl;
-					break;
 				case SDLK_w:
-					/*cameraPosition.z++;
-					cameraLookAt.z++;*/
 					cameraPosition += cameraLookAt * speed;
 					cout << "in" << endl;
 					break;
 				case SDLK_s:
-					/*cameraPosition.z--;
-					cameraLookAt.z--;*/
 					cameraPosition -= cameraLookAt * speed;
 					cout << "out" << endl;
 					break;
 				case SDLK_SPACE:
 					break;
 				case SDLK_ESCAPE:
+					cout << "exit" << endl;
 					run = false;
 					break;
 				default:
